@@ -1,0 +1,5 @@
+const colors=['#ecc0d7','#b6d9de','#c6bfef','#e9ce93','#b6d6ba','#e9b79f'];
+export function wedge(r,a,start=0,cx=160,cy=160,scale=22,color=colors[0]){const rad=x=>(x-90)*Math.PI/180,end=start+a;const x=t=>cx+r*scale*Math.cos(rad(t)),y=t=>cy+r*scale*Math.sin(rad(t));return '<path d="M'+cx+' '+cy+' L'+x(start)+' '+y(start)+' A'+r*scale+' '+r*scale+' 0 '+(a>180?1:0)+' 1 '+x(end)+' '+y(end)+' Z" fill="'+color+'" stroke="#644765" stroke-width="2"/>'}
+export function sector(c){return '<svg viewBox="0 0 180 150" role="img" aria-label="反">'.replace('反','반지름 '+c.r+', 중심각 '+c.a*30)+wedge(c.r,c.a*30,-c.a*15,90,105,12)+'<text x="90" y="133" text-anchor="middle">'+c.a*30+'° · r = '+c.r+'</text></svg>'}
+export function flower(cards,ids){let angle=0;return '<svg viewBox="0 0 320 320" role="img" aria-label="놓은 부채꼴로 만든 꽃"><circle cx="160" cy="160" r="139" fill="#fff8ed" stroke="#ad8eae" stroke-dasharray="4 5"/>'+ids.map((id,i)=>{const c=cards[id],s=wedge(c.r,c.a*30,angle,160,160,22,colors[i%6]);angle+=c.a*30;return s}) .join('')+'<circle cx="160" cy="160" r="5" fill="#795073"/></svg>'}
+export const net=()=>'',cube=()=>'';

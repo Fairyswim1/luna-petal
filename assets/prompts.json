@@ -1,0 +1,41 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "name": "background",
+      "transparent": false,
+      "prompt": "Create a polished storybook game background, landscape 1536x1024. A moonlit botanical glass workshop on a lavender lake, copper crescent arches, rose quartz lamps, pale luminous lotus flowers, plum and ink-blue shadows, warm ivory details. Painterly premium board-game art. Calm central area for interface, intricate floral details on left and right. No text, no symbols, no numbers, no UI.",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-2448d3f0-8cac-4029-8139-0289d25f0bf9.png"
+    },
+    {
+      "name": "button",
+      "transparent": true,
+      "prompt": "Create one premium fantasy game button on transparent background, wide horizontal 5:1 shape centered and filling most canvas. Ivory enamel blank center occupying 75 percent, sculpted antique copper frame with tiny lavender petals at two ends. Straight broad center suitable for Korean text overlay, substantial beveled game material. Moonlit botanical workshop style. No text, no letters, no icons, no background or shadow outside button.",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-f8453723-5314-4031-a7f6-718f6997ac0c.png"
+    },
+    {
+      "name": "badge",
+      "transparent": true,
+      "prompt": "One circular fantasy round selection medallion, transparent background. Antique copper rim with delicate lilac flower petals, dark plum enamel blank center occupying 70 percent. Premium illustrated board game asset. No text, no numerals, no other objects.",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-0fc89598-d2d6-4699-ab1c-0ee98e3b5b85.png"
+    },
+    {
+      "name": "frame",
+      "transparent": true,
+      "prompt": "A single square portrait card frame on transparent background for a fantasy botanical puzzle. Thin elegant antique copper rim, rounded corners, tiny lavender floral accents only at corners. Large empty ivory parchment center, 80 percent of area available for mathematical diagram. Premium hand-painted polished game asset, front view. No text, no numbers, no icons.",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-a01973a8-f9c4-4a29-9453-4765d4ce6f5f.png"
+    },
+    {
+      "name": "guide",
+      "transparent": true,
+      "prompt": "One friendly small lavender rabbit botanical craftswoman mascot holding a spool of glowing gold thread. Full body, antique copper spectacles and purple apron, expressive warm face. Hand-painted storybook fantasy game character with clean silhouette, transparent background, no text, no extra props separated from body.",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-b91f3ee6-6f9f-411e-9244-b6a816dd54fb.png"
+    },
+    {
+      "name": "reward",
+      "transparent": true,
+      "prompt": "One collectible luminous lotus brooch for fantasy botanical board game, rose quartz and lavender glass petals with antique copper edges and a small warm golden core. Elegant jewel award, front three-quarter view, isolated on transparent background, no text or numbers, no pedestal.",
+      "path": "C:\\Users\\BTY\\.codex\\generated_images\\01a17b22-1b7f-7d52-98b6-8d4b18575368\\exec-4a08b2a7-6d46-4e40-8530-71d03d96d104.png"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "luna-petal",
+  "title": "루나 페탈",
+  "subtitle": "달빛으로 엮는 꽃",
+  "grade": 1,
+  "unit": "6-4 원과 부채꼴 · 6-5 부채꼴의 호의 길이와 넓이",
+  "category": "도형과 측정",
+  "version": "1.0.0",
+  "description": "부채꼴 조각을 골라 한 바퀴의 꽃을 피워요. 중심각과 목표 넓이를 맞추고, 호에 두를 금실을 아끼며 열두 꽃의 화관을 완성하는 조합 퍼즐입니다.",
+  "tags": [
+    "부채꼴",
+    "호의 길이와 넓이",
+    "조각 조합"
+  ],
+  "duration": "25–40분",
+  "assets": [
+    "assets/background.png",
+    "assets/button.png",
+    "assets/frame.png",
+    "assets/badge.png",
+    "assets/guide.png",
+    "assets/reward.png"
+  ],
+  "generatedRoles": {
+    "background": "assets/background.png",
+    "controls": "assets/button.png",
+    "interactiveProp": "assets/frame.png",
+    "roundNavigation": "assets/badge.png",
+    "character": "assets/guide.png",
+    "reward": "assets/reward.png"
+  },
+  "obstacles": "목표 넓이와 다른 반지름 조합 및 제한된 호 장식 실. 도형은 SVG로 정확히 표시.",
+  "campaign": {
+    "rounds": 12,
+    "collectibles": 12,
+    "ending": true
+  },
+  "tutorial": {
+    "firstVisit": true,
+    "spotlight": true,
+    "actualSuccess": true,
+    "skippable": true,
+    "replay": true,
+    "isolated": true
+  },
+  "repository": "https://github.com/Fairyswim1/luna-petal",
+  "repositoryStatus": "created"
+}

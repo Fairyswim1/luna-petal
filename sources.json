@@ -1,0 +1,59 @@
+{
+  "visualReview": true,
+  "references": [
+    {
+      "title": "미래엔 중학교 수학1 6-4 원과 부채꼴",
+      "sha256": "67b4b86ecfd6dcafdfd9b2f235f39df06e46860cd5db37c7cabcd22f1e9d0088",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "concepts": [
+        "같은 원에서 중심각과 호 길이의 비례 관계"
+      ]
+    },
+    {
+      "title": "미래엔 중학교 수학1 6-5 부채꼴의 호의 길이와 넓이",
+      "sha256": "23d446fe80684f8a777b48c03bfcc52e71eefb044768004d309ffc2b0cc822f4",
+      "pdfPages": [
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "printedPages": [
+        200,
+        201,
+        202,
+        203,
+        205
+      ],
+      "visualPages": [
+        2
+      ],
+      "internalImages": [
+        "curriculum/luna-source-2.png"
+      ],
+      "concepts": [
+        "원주 2πr",
+        "원의 넓이 πr²",
+        "호의 길이 2πrθ/360",
+        "부채꼴 넓이 πr²θ/360",
+        "부채꼴 넓이 rl/2"
+      ],
+      "prerequisites": [
+        "원과 중심각",
+        "분수의 계산"
+      ],
+      "misconceptions": [
+        "호 길이와 부채꼴 전체 둘레 혼동",
+        "반지름이 두 배면 넓이도 두 배라고 생각하기",
+        "넓이가 같으면 호 길이도 같다고 생각하기"
+      ]
+    }
+  ],
+  "scope": "단순한 부채꼴 관계와 계산. 꽃의 전체 둘레나 복잡한 변형 도형 계산은 평가하지 않음. 원문과 내부 렌더는 배포하지 않음."
+}

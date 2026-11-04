@@ -1,0 +1,55 @@
+{
+  "game": "luna-petal",
+  "version": "2026.11.04.1",
+  "source": {
+    "title": "교육부 고시 제2022-33호 [별책8] 수학과 교육과정",
+    "sha256": "a11706f7c7a8e0aa650a4d08549895ff10f7920b1bee7b2c2f4ce79ad3795ac8",
+    "assessmentPages": [
+      53,
+      54,
+      55
+    ]
+  },
+  "standards": [
+    {
+      "code": "9수03-06",
+      "text": "부채꼴의 중심각과 호의 관계를 이해하고, 이를 이용하여 부채꼴의 호의 길이와 넓이를 구할 수 있다.",
+      "page": 44,
+      "printedPage": 38,
+      "skills": {
+        "relation": "같은 원에서 중심각과 호의 길이 관계 해석",
+        "arc": "새로운 반지름과 중심각에서 호 길이 계산",
+        "area": "중심각 또는 호 길이로 부채꼴 넓이 계산",
+        "compare": "반지름 변화와 같은 넓이의 다른 호 길이 비교"
+      },
+      "rubric": "같은 원이라는 조건을 확인하고 중심각 비를 설명 / 길이와 넓이 단위를 구별 / 반지름에 대한 일차·제곱 변화 구별 / 계산과 설명의 연결은 함께 검토",
+      "limit": "기본 부채꼴의 관계·길이·넓이만 확인. 복잡한 합성 도형 및 꽃 전체 둘레 제외. 승리나 속도는 공식 이수 판정이 아님."
+    }
+  ],
+  "interpretation": {
+    "pages": [
+      45,
+      46
+    ],
+    "printedPages": [
+      39,
+      40
+    ],
+    "review": "9수03-06의 별도 해설은 없음. 도구를 통한 관찰·추론과 복잡하게 변형한 평면도형 넓이/둘레를 피하라는 적용 시 고려 사항 대조."
+  },
+  "independence": {
+    "requiredDistinctFirstNoHelp": 2,
+    "retriesIndependent": false,
+    "gameWinEvidence": false
+  },
+  "records": {
+    "firstResponse": true,
+    "incorrect": true,
+    "retry": true,
+    "help": true,
+    "explanation": true,
+    "review": true,
+    "export": "Readable HTML and print; no raw JSON",
+    "anonymousProfiles": true
+  }
+}

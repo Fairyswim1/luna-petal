@@ -1,0 +1,150 @@
+TAP version 13
+# Subtest: sector formulas checked in radians against independent oracle
+ok 1 - sector formulas checked in radians against independent oracle
+  ---
+  duration_ms: 2.3123
+  ...
+# Subtest: round 1 is solvable by actual state transitions
+ok 2 - round 1 is solvable by actual state transitions
+  ---
+  duration_ms: 1.8277
+  ...
+# Subtest: round 2 is solvable by actual state transitions
+ok 3 - round 2 is solvable by actual state transitions
+  ---
+  duration_ms: 0.242
+  ...
+# Subtest: round 3 is solvable by actual state transitions
+ok 4 - round 3 is solvable by actual state transitions
+  ---
+  duration_ms: 0.3884
+  ...
+# Subtest: round 4 is solvable by actual state transitions
+ok 5 - round 4 is solvable by actual state transitions
+  ---
+  duration_ms: 0.4789
+  ...
+# Subtest: round 5 is solvable by actual state transitions
+ok 6 - round 5 is solvable by actual state transitions
+  ---
+  duration_ms: 1.1425
+  ...
+# Subtest: round 6 is solvable by actual state transitions
+ok 7 - round 6 is solvable by actual state transitions
+  ---
+  duration_ms: 0.9815
+  ...
+# Subtest: round 7 is solvable by actual state transitions
+ok 8 - round 7 is solvable by actual state transitions
+  ---
+  duration_ms: 0.3781
+  ...
+# Subtest: round 8 is solvable by actual state transitions
+ok 9 - round 8 is solvable by actual state transitions
+  ---
+  duration_ms: 1.4921
+  ...
+# Subtest: round 9 is solvable by actual state transitions
+ok 10 - round 9 is solvable by actual state transitions
+  ---
+  duration_ms: 1.526
+  ...
+# Subtest: round 10 is solvable by actual state transitions
+ok 11 - round 10 is solvable by actual state transitions
+  ---
+  duration_ms: 1.9355
+  ...
+# Subtest: round 11 is solvable by actual state transitions
+ok 12 - round 11 is solvable by actual state transitions
+  ---
+  duration_ms: 1.1633
+  ...
+# Subtest: round 12 is solvable by actual state transitions
+ok 13 - round 12 is solvable by actual state transitions
+  ---
+  duration_ms: 0.7587
+  ...
+# Subtest: large piece first loses potential in rounds 4–7
+ok 14 - large piece first loses potential in rounds 4–7
+  ---
+  duration_ms: 1.5107
+  ...
+# Subtest: same angle and area can exceed thread: all last five stages
+ok 15 - same angle and area can exceed thread: all last five stages
+  ---
+  duration_ms: 0.2612
+  ...
+# Subtest: undo recovers failed choice and resource; reset and storage validate
+ok 16 - undo recovers failed choice and resource; reset and storage validate
+  ---
+  duration_ms: 1.1179
+  ...
+# Subtest: practice has actual first success and no persisted campaign writes
+ok 17 - practice has actual first success and no persisted campaign writes
+  ---
+  duration_ms: 2.5665
+  ...
+# Subtest: assessment r1 exact, empty and wrong
+ok 18 - assessment r1 exact, empty and wrong
+  ---
+  duration_ms: 0.3577
+  ...
+# Subtest: assessment r2 exact, empty and wrong
+ok 19 - assessment r2 exact, empty and wrong
+  ---
+  duration_ms: 0.0727
+  ...
+# Subtest: assessment l1 exact, empty and wrong
+ok 20 - assessment l1 exact, empty and wrong
+  ---
+  duration_ms: 0.142
+  ...
+# Subtest: assessment l2 exact, empty and wrong
+ok 21 - assessment l2 exact, empty and wrong
+  ---
+  duration_ms: 0.0713
+  ...
+# Subtest: assessment a1 exact, empty and wrong
+ok 22 - assessment a1 exact, empty and wrong
+  ---
+  duration_ms: 0.0669
+  ...
+# Subtest: assessment a2 exact, empty and wrong
+ok 23 - assessment a2 exact, empty and wrong
+  ---
+  duration_ms: 0.0621
+  ...
+# Subtest: assessment c1 exact, empty and wrong
+ok 24 - assessment c1 exact, empty and wrong
+  ---
+  duration_ms: 0.0636
+  ...
+# Subtest: assessment c2 exact, empty and wrong
+ok 25 - assessment c2 exact, empty and wrong
+  ---
+  duration_ms: 0.0562
+  ...
+# Subtest: retry and helped answers never independent
+ok 26 - retry and helped answers never independent
+  ---
+  duration_ms: 0.2722
+  ...
+# Subtest: independent new tasks count once
+ok 27 - independent new tasks count once
+  ---
+  duration_ms: 0.2557
+  ...
+# Subtest: sector additions cannot overlap past a full turn
+ok 28 - sector additions cannot overlap past a full turn
+  ---
+  duration_ms: 0.0953
+  ...
+1..28
+# tests 28
+# suites 0
+# pass 28
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 157.7149
