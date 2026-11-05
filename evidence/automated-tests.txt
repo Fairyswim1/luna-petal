@@ -2,149 +2,209 @@ TAP version 13
 # Subtest: sector formulas checked in radians against independent oracle
 ok 1 - sector formulas checked in radians against independent oracle
   ---
-  duration_ms: 2.3123
+  duration_ms: 1.9841
   ...
 # Subtest: round 1 is solvable by actual state transitions
 ok 2 - round 1 is solvable by actual state transitions
   ---
-  duration_ms: 1.8277
+  duration_ms: 0.8898
   ...
 # Subtest: round 2 is solvable by actual state transitions
 ok 3 - round 2 is solvable by actual state transitions
   ---
-  duration_ms: 0.242
+  duration_ms: 1.3479
   ...
 # Subtest: round 3 is solvable by actual state transitions
 ok 4 - round 3 is solvable by actual state transitions
   ---
-  duration_ms: 0.3884
+  duration_ms: 0.3798
   ...
 # Subtest: round 4 is solvable by actual state transitions
 ok 5 - round 4 is solvable by actual state transitions
   ---
-  duration_ms: 0.4789
+  duration_ms: 0.4581
   ...
 # Subtest: round 5 is solvable by actual state transitions
 ok 6 - round 5 is solvable by actual state transitions
   ---
-  duration_ms: 1.1425
+  duration_ms: 1.1195
   ...
 # Subtest: round 6 is solvable by actual state transitions
 ok 7 - round 6 is solvable by actual state transitions
   ---
-  duration_ms: 0.9815
+  duration_ms: 0.7907
   ...
 # Subtest: round 7 is solvable by actual state transitions
 ok 8 - round 7 is solvable by actual state transitions
   ---
-  duration_ms: 0.3781
+  duration_ms: 0.6248
   ...
 # Subtest: round 8 is solvable by actual state transitions
 ok 9 - round 8 is solvable by actual state transitions
   ---
-  duration_ms: 1.4921
+  duration_ms: 2.3287
   ...
 # Subtest: round 9 is solvable by actual state transitions
 ok 10 - round 9 is solvable by actual state transitions
   ---
-  duration_ms: 1.526
+  duration_ms: 1.9664
   ...
 # Subtest: round 10 is solvable by actual state transitions
 ok 11 - round 10 is solvable by actual state transitions
   ---
-  duration_ms: 1.9355
+  duration_ms: 1.7191
   ...
 # Subtest: round 11 is solvable by actual state transitions
 ok 12 - round 11 is solvable by actual state transitions
   ---
-  duration_ms: 1.1633
+  duration_ms: 0.9646
   ...
 # Subtest: round 12 is solvable by actual state transitions
 ok 13 - round 12 is solvable by actual state transitions
   ---
-  duration_ms: 0.7587
+  duration_ms: 0.7177
   ...
 # Subtest: large piece first loses potential in rounds 4–7
 ok 14 - large piece first loses potential in rounds 4–7
   ---
-  duration_ms: 1.5107
+  duration_ms: 1.0945
   ...
 # Subtest: same angle and area can exceed thread: all last five stages
 ok 15 - same angle and area can exceed thread: all last five stages
   ---
-  duration_ms: 0.2612
+  duration_ms: 0.2941
   ...
 # Subtest: undo recovers failed choice and resource; reset and storage validate
 ok 16 - undo recovers failed choice and resource; reset and storage validate
   ---
-  duration_ms: 1.1179
+  duration_ms: 1.0003
   ...
 # Subtest: practice has actual first success and no persisted campaign writes
 ok 17 - practice has actual first success and no persisted campaign writes
   ---
-  duration_ms: 2.5665
+  duration_ms: 2.8268
   ...
 # Subtest: assessment r1 exact, empty and wrong
 ok 18 - assessment r1 exact, empty and wrong
   ---
-  duration_ms: 0.3577
+  duration_ms: 0.3626
   ...
 # Subtest: assessment r2 exact, empty and wrong
 ok 19 - assessment r2 exact, empty and wrong
   ---
-  duration_ms: 0.0727
+  duration_ms: 0.0729
   ...
 # Subtest: assessment l1 exact, empty and wrong
 ok 20 - assessment l1 exact, empty and wrong
   ---
-  duration_ms: 0.142
+  duration_ms: 0.1367
   ...
 # Subtest: assessment l2 exact, empty and wrong
 ok 21 - assessment l2 exact, empty and wrong
   ---
-  duration_ms: 0.0713
+  duration_ms: 0.0697
   ...
 # Subtest: assessment a1 exact, empty and wrong
 ok 22 - assessment a1 exact, empty and wrong
   ---
-  duration_ms: 0.0669
+  duration_ms: 0.0664
   ...
 # Subtest: assessment a2 exact, empty and wrong
 ok 23 - assessment a2 exact, empty and wrong
   ---
-  duration_ms: 0.0621
+  duration_ms: 0.0596
   ...
 # Subtest: assessment c1 exact, empty and wrong
 ok 24 - assessment c1 exact, empty and wrong
   ---
-  duration_ms: 0.0636
+  duration_ms: 0.0538
   ...
 # Subtest: assessment c2 exact, empty and wrong
 ok 25 - assessment c2 exact, empty and wrong
   ---
-  duration_ms: 0.0562
+  duration_ms: 0.0605
   ...
 # Subtest: retry and helped answers never independent
 ok 26 - retry and helped answers never independent
   ---
-  duration_ms: 0.2722
+  duration_ms: 0.2627
   ...
 # Subtest: independent new tasks count once
 ok 27 - independent new tasks count once
   ---
-  duration_ms: 0.2557
+  duration_ms: 0.4466
   ...
 # Subtest: sector additions cannot overlap past a full turn
 ok 28 - sector additions cannot overlap past a full turn
   ---
-  duration_ms: 0.0953
+  duration_ms: 0.1473
   ...
-1..28
-# tests 28
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 29 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 1.5896
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 30 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 2.0398
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 31 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.2822
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 32 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.2409
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 33 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.2584
+  ...
+# Subtest: pause cancels a pending play state update
+ok 34 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.2239
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 35 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2517
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 36 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 2.7317
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 37 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 90.7809
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 38 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.6822
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 39 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.4085
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 40 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.5457
+  ...
+1..40
+# tests 40
 # suites 0
-# pass 28
+# pass 40
 # fail 0
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 157.7149
+# duration_ms 232.2642

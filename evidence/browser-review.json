@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-04T00:23:23.195Z",
-  "sourceHash": "cb7e32f79df78b001c156eb79c03c269caa1027324cc2d463795391862cb6607",
+  "sourceHash": "e7f9b45f11a0e0720204096836e50331f1aceaed4ef63e25d4974cfa0c738686",
   "browser": "ChatGPT in-app browser; actual UI clicks",
   "screenshots": [
     "evidence/desktop.jpg",
@@ -97,5 +97,26 @@
     "signal": true,
     "claim": "UI reports audio signal normal; actual device audibility is not asserted"
   },
-  "consoleErrors": []
+  "consoleErrors": [],
+  "audioRefresh": {
+    "id": "luna-petal",
+    "checkedAt": "2026-11-05T04:11:23.792324+00:00",
+    "method": "Chrome actual UI clicks through cua_repl; music HTMLAudioElement readyState/currentTime; effects analyser test",
+    "focus": {
+      "playing": true,
+      "readyState": 4
+    },
+    "energy": {
+      "playing": true,
+      "readyState": 4
+    },
+    "effectsSignal": true,
+    "independentEffectsMute": true,
+    "musicStop": true,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "musicMenuInBounds": true,
+    "consoleErrors": [],
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  }
 }

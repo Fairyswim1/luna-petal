@@ -1,0 +1,42 @@
+{
+  "title": "달꽃의 왈츠",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "달꽃의 왈츠",
+    "root": 65,
+    "bpm": 66,
+    "color": "harp",
+    "minor": false,
+    "motif": [
+      0,
+      4,
+      9,
+      7,
+      12,
+      9,
+      7,
+      4
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 66,
+      "seconds": 58.18181405895692,
+      "peak": 0.24128524556693204,
+      "rms": 0.05652037591643741,
+      "seamDelta": 0.0030951465142341206,
+      "sha256": "83027c3ae5ac3b592250348f8507a05480fe0eb70a0bf73bf118cd53193c3c11"
+    },
+    {
+      "mode": "energy",
+      "bpm": 90,
+      "seconds": 42.666666666666664,
+      "peak": 0.31303987055528604,
+      "rms": 0.07382526168087518,
+      "seamDelta": 0.002791386226306203,
+      "sha256": "b6606326e21e833eb6c82cbfc3a4b0e229b8f238e37caea659f1daa6adfab084"
+    }
+  ]
+}
