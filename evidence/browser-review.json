@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-04T00:23:23.195Z",
-  "sourceHash": "e7f9b45f11a0e0720204096836e50331f1aceaed4ef63e25d4974cfa0c738686",
+  "sourceHash": "6c4d0811ff34a3ac3455a6a4781f3773836409c64294fd3a765ca5362776fca2",
   "browser": "ChatGPT in-app browser; actual UI clicks",
   "screenshots": [
     "evidence/desktop.jpg",
@@ -117,6 +117,14 @@
     "horizontalOverflow": false,
     "musicMenuInBounds": true,
     "consoleErrors": [],
-    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+    "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun.",
+    "remoteViewportChangePreserved": "5fd763a",
+    "mergedViewportCheck": {
+      "width": 390,
+      "scrollWidth": 390,
+      "musicPlayed": true,
+      "musicStopped": true,
+      "menuInBounds": true
+    }
   }
 }
