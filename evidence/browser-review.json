@@ -1,12 +1,13 @@
 {
   "status": "passed",
   "checkedAt": "2026-11-04T00:23:23.195Z",
-  "sourceHash": "6c4d0811ff34a3ac3455a6a4781f3773836409c64294fd3a765ca5362776fca2",
+  "sourceHash": "a0ceb02a15d08f5e8505cf7c74d5bdc98ccea969f7455f4136f66d0b201a617d",
   "browser": "ChatGPT in-app browser; actual UI clicks",
   "screenshots": [
     "evidence/desktop.jpg",
     "evidence/mobile.jpg",
-    "evidence/assessment.jpg"
+    "evidence/assessment.jpg",
+    "evidence/first-visit-mobile.png"
   ],
   "gameplay": {
     "allRounds": [
@@ -126,5 +127,17 @@
       "musicStopped": true,
       "menuInBounds": true
     }
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:53.415Z",
+    "id": "luna-petal",
+    "firstVisitOff": true,
+    "startedStep": "꽃 한 바퀴를 만들어요",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "6c4d0811ff34a3ac3455a6a4781f3773836409c64294fd3a765ca5362776fca2",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }

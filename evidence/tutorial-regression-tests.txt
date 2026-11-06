@@ -1,0 +1,245 @@
+TAP version 13
+# Subtest: sector formulas checked in radians against independent oracle
+ok 1 - sector formulas checked in radians against independent oracle
+  ---
+  duration_ms: 1.5003
+  ...
+# Subtest: round 1 is solvable by actual state transitions
+ok 2 - round 1 is solvable by actual state transitions
+  ---
+  duration_ms: 2.1395
+  ...
+# Subtest: round 2 is solvable by actual state transitions
+ok 3 - round 2 is solvable by actual state transitions
+  ---
+  duration_ms: 0.4307
+  ...
+# Subtest: round 3 is solvable by actual state transitions
+ok 4 - round 3 is solvable by actual state transitions
+  ---
+  duration_ms: 0.4642
+  ...
+# Subtest: round 4 is solvable by actual state transitions
+ok 5 - round 4 is solvable by actual state transitions
+  ---
+  duration_ms: 0.5225
+  ...
+# Subtest: round 5 is solvable by actual state transitions
+ok 6 - round 5 is solvable by actual state transitions
+  ---
+  duration_ms: 1.2374
+  ...
+# Subtest: round 6 is solvable by actual state transitions
+ok 7 - round 6 is solvable by actual state transitions
+  ---
+  duration_ms: 0.6751
+  ...
+# Subtest: round 7 is solvable by actual state transitions
+ok 8 - round 7 is solvable by actual state transitions
+  ---
+  duration_ms: 0.7878
+  ...
+# Subtest: round 8 is solvable by actual state transitions
+ok 9 - round 8 is solvable by actual state transitions
+  ---
+  duration_ms: 2.4434
+  ...
+# Subtest: round 9 is solvable by actual state transitions
+ok 10 - round 9 is solvable by actual state transitions
+  ---
+  duration_ms: 1.6444
+  ...
+# Subtest: round 10 is solvable by actual state transitions
+ok 11 - round 10 is solvable by actual state transitions
+  ---
+  duration_ms: 1.4162
+  ...
+# Subtest: round 11 is solvable by actual state transitions
+ok 12 - round 11 is solvable by actual state transitions
+  ---
+  duration_ms: 1.9174
+  ...
+# Subtest: round 12 is solvable by actual state transitions
+ok 13 - round 12 is solvable by actual state transitions
+  ---
+  duration_ms: 1.3664
+  ...
+# Subtest: large piece first loses potential in rounds 4–7
+ok 14 - large piece first loses potential in rounds 4–7
+  ---
+  duration_ms: 1.8648
+  ...
+# Subtest: same angle and area can exceed thread: all last five stages
+ok 15 - same angle and area can exceed thread: all last five stages
+  ---
+  duration_ms: 0.4741
+  ...
+# Subtest: undo recovers failed choice and resource; reset and storage validate
+ok 16 - undo recovers failed choice and resource; reset and storage validate
+  ---
+  duration_ms: 0.9699
+  ...
+# Subtest: practice has actual first success and no persisted campaign writes
+ok 17 - practice has actual first success and no persisted campaign writes
+  ---
+  duration_ms: 2.8806
+  ...
+# Subtest: assessment r1 exact, empty and wrong
+ok 18 - assessment r1 exact, empty and wrong
+  ---
+  duration_ms: 0.4571
+  ...
+# Subtest: assessment r2 exact, empty and wrong
+ok 19 - assessment r2 exact, empty and wrong
+  ---
+  duration_ms: 0.1059
+  ...
+# Subtest: assessment l1 exact, empty and wrong
+ok 20 - assessment l1 exact, empty and wrong
+  ---
+  duration_ms: 0.1631
+  ...
+# Subtest: assessment l2 exact, empty and wrong
+ok 21 - assessment l2 exact, empty and wrong
+  ---
+  duration_ms: 0.0741
+  ...
+# Subtest: assessment a1 exact, empty and wrong
+ok 22 - assessment a1 exact, empty and wrong
+  ---
+  duration_ms: 0.0708
+  ...
+# Subtest: assessment a2 exact, empty and wrong
+ok 23 - assessment a2 exact, empty and wrong
+  ---
+  duration_ms: 0.0639
+  ...
+# Subtest: assessment c1 exact, empty and wrong
+ok 24 - assessment c1 exact, empty and wrong
+  ---
+  duration_ms: 0.0558
+  ...
+# Subtest: assessment c2 exact, empty and wrong
+ok 25 - assessment c2 exact, empty and wrong
+  ---
+  duration_ms: 0.0772
+  ...
+# Subtest: retry and helped answers never independent
+ok 26 - retry and helped answers never independent
+  ---
+  duration_ms: 0.4101
+  ...
+# Subtest: independent new tasks count once
+ok 27 - independent new tasks count once
+  ---
+  duration_ms: 0.2841
+  ...
+# Subtest: sector additions cannot overlap past a full turn
+ok 28 - sector additions cannot overlap past a full turn
+  ---
+  duration_ms: 0.106
+  ...
+# Subtest: music starts only after explicit play; loops and resumes without resetting position
+ok 29 - music starts only after explicit play; loops and resumes without resetting position
+  ---
+  duration_ms: 1.8662
+  ...
+# Subtest: mode change preserves playing state and writes only preferences
+ok 30 - mode change preserves playing state and writes only preferences
+  ---
+  duration_ms: 3.0162
+  ...
+# Subtest: saved mode and volume load without autoplay
+ok 31 - saved mode and volume load without autoplay
+  ---
+  duration_ms: 0.3077
+  ...
+# Subtest: invalid preferences and modes cannot select arbitrary sources
+ok 32 - invalid preferences and modes cannot select arbitrary sources
+  ---
+  duration_ms: 0.2681
+  ...
+# Subtest: blocked playback exposes recovery without claiming playback
+ok 33 - blocked playback exposes recovery without claiming playback
+  ---
+  duration_ms: 0.271
+  ...
+# Subtest: pause cancels a pending play state update
+ok 34 - pause cancels a pending play state update
+  ---
+  duration_ms: 0.4372
+  ...
+# Subtest: older play completion cannot silence the newer request
+ok 35 - older play completion cannot silence the newer request
+  ---
+  duration_ms: 0.2782
+  ...
+# Subtest: muted effects never start; enable, play and mute stop active oscillators
+ok 36 - muted effects never start; enable, play and mute stop active oscillators
+  ---
+  duration_ms: 1.8738
+  ...
+# Subtest: preference survives new controller and test checks a generated waveform
+ok 37 - preference survives new controller and test checks a generated waveform
+  ---
+  duration_ms: 79.3365
+  ...
+# Subtest: blocked playback returns an error instead of falsely reporting enabled sound
+ok 38 - blocked playback returns an error instead of falsely reporting enabled sound
+  ---
+  duration_ms: 0.5112
+  ...
+# Subtest: muting while resume is pending cannot re-enable playback
+ok 39 - muting while resume is pending cannot re-enable playback
+  ---
+  duration_ms: 0.2868
+  ...
+# Subtest: unavailable storage does not prevent sound playback
+ok 40 - unavailable storage does not prevent sound playback
+  ---
+  duration_ms: 0.3985
+  ...
+# Subtest: first visit always starts, including an old shared off URL
+ok 41 - first visit always starts, including an old shared off URL
+  ---
+  duration_ms: 2.394
+  ...
+# Subtest: opening, abandoning, and refreshing do not mark the guide finished
+ok 42 - opening, abandoning, and refreshing do not mark the guide finished
+  ---
+  duration_ms: 1.2616
+  ...
+# Subtest: completion and explicit skip persist per game, with a clean shareable URL
+ok 43 - completion and explicit skip persist per game, with a clean shareable URL
+  ---
+  duration_ms: 3.7488
+  ...
+# Subtest: old valid completion is preserved; corrupt or started records do not skip
+ok 44 - old valid completion is preserved; corrupt or started records do not skip
+  ---
+  duration_ms: 1.1317
+  ...
+# Subtest: replay and practice never overwrite campaign or assessment records
+ok 45 - replay and practice never overwrite campaign or assessment records
+  ---
+  duration_ms: 0.3491
+  ...
+# Subtest: blocked local storage uses session completion without a redirect loop
+ok 46 - blocked local storage uses session completion without a redirect loop
+  ---
+  duration_ms: 0.4505
+  ...
+# Subtest: both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+ok 47 - both storage APIs blocked: same-tab history survives reload but shared URL does not skip
+  ---
+  duration_ms: 0.4531
+  ...
+1..47
+# tests 47
+# suites 0
+# pass 47
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 215.3401
